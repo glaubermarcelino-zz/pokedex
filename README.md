@@ -9,7 +9,10 @@ e foram abordados o uso de Hooks como:
 ![Pokemon](https://github.com/glaubermarcelino/pokedex/blob/main/pikachu.png)
 
 ### `Screens`
-![Aplicação Rodando](https://github.com/glaubermarcelino/pokedex/blob/main/listPokedex.png)
+![Aplicação](https://github.com/glaubermarcelino/pokedex/blob/main/listPokedex.png)
+
+### `Aplicação`
+![Aplicação sendo Executada](https://github.com/glaubermarcelino/pokedex/blob/main/Pokedex-React.gif)
 
 In the project directory, you can run:
 
