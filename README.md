@@ -5,10 +5,10 @@ e foram abordados o uso de Hooks como: [ContextAPI](https://pt-br.reactjs.org/do
 
 ![Pokemon](https://github.com/glaubermarcelino/pokedex/blob/main/pikachu.png)
 
-In the project directory, you can run:
-
 ### `Screens`
 ![Aplicação Rodando](https://github.com/glaubermarcelino/pokedex/blob/main/listPokedex.png)
+
+In the project directory, you can run:
 
 ### `npm install`
 
