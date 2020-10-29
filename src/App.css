@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 10vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: rgb(255, 10, 25);
+  min-height: 10vh;
+  display: flex;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.actions {
+  display: flex;
+  justify-content: space-between;
+}
+.actions button {
+  background-color: rgb(240, 59, 59);
+  color: white;
+  font-weight: 600;
+  border: none;
+  width: 15vmin;
+  height: 4vmin;
+  margin: 10px;
+  border-radius: 5px;
+}
+.actions button:hover {
+  background-color: rgb(240, 165, 165);
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 0.3ms;
+  color: black;
+}
+.listPokemons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+}
+
+.listPokemons div {
+  box-shadow: 0 0 1em #dedede;
+  font-size: 2rem;
+  padding: 5px;
+  margin: 5px;
+  height: 150px;
+  width: 25vmin;
+  border: 1px solid #61dafb;
+  justify-items: center;
+}
+
+.listPokemons div:hover {
+  transition: cubic-bezier(0.165, 0.84, 0.44, 1);
+  transition-duration: 360ms;
+  font-size: 2.5rem;
+  transition-delay: 150ms;
+  transform:rotate3d(0,0,30,360deg);
+}
